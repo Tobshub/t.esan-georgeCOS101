@@ -5,7 +5,7 @@ fn main() {
     let r: f64 = 10.0;
 
     // amount
-    let a = p * ((1.0 + (r / 100.0)) as f64).powf(t);
+    let a = p * (1.0 + (r / 100.0)).powf(t);
     println!("Amount: {}", a);
 
     // compound interest
